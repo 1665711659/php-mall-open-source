@@ -1,0 +1,15 @@
+# 第三方源码与本地中间产物
+projects/
+work/
+
+# 依赖与构建产物
+vendor/
+node_modules/
+dist/
+runtime/
+storage/logs/
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store
