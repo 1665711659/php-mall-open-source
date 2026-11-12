@@ -32,6 +32,21 @@ projects/
 
 > 微擎没有官方完整开源的商城仓库，未列入自动下载；见下文说明。
 
+### 本次实际下载记录（2026-11-12，浅克隆 depth=1）
+
+| 目录 | 仓库 | Commit | 文件数 | 体积 |
+| --- | --- | --- | --- | --- |
+| `projects/crmeb` | ZhongBangKeJi/CRMEB | `249eba48` | 17,624 | 270.8 MB |
+| `projects/yoshop2.0` | xany/yoshop2.0 | `42f1a17` | 6,074 | 53.7 MB |
+| `projects/yoshop2.0-uniapp` | xany/yoshop2.0-uniapp | `17a7584` | 436 | 2.7 MB |
+| `projects/shopxo` | zongzhige/shopxo | `d8bf1b7` | 6,152 | 137.7 MB |
+| `projects/shopxo-uniapp` | zongzhige/shopxo-uniapp | `a3b04da` | 1,227 | 34.5 MB |
+| `projects/likeshop` | likeshop_gitee/likeshop | `7536930c` | 21,756 | 192.3 MB |
+| `projects/sparkshop` | sparkshop/sparkshop | `ec8033a` | 4,275 | 75.8 MB |
+| `projects/a3mall` | xzncit/A3Mall | `c2507114` | 41,166 | 205.7 MB |
+
+合计约 **973 MB / 98,710 个文件**（含各仓库 `.git` 浅克隆数据）。
+
 ## 横向对比（Star 数为 2026-11-12 查询，仅供趋势参考）
 
 | 项目 | 技术栈 | 开源协议（以仓库 LICENSE 为准） | 多端能力 | 适合场景 | 仓库 |
