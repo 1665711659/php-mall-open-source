@@ -36,13 +36,13 @@ projects/
 
 | 项目 | 技术栈 | 开源协议（以仓库 LICENSE 为准） | 多端能力 | 适合场景 | 仓库 |
 | --- | --- | --- | --- | --- | --- |
-| CRMEB | ThinkPHP 6 + uni-app + MySQL + Redis | 社区版开源可商用，需保留版权 | 微信小程序 / H5 / 公众号 / PC / APP | 私域零售、分销、拼团、外包二开 | [ZhongBangKeJi/CRMEB](https://gitee.com/ZhongBangKeJi/CRMEB) |
-| 萤火商城 V2.0 | PHP 7.4 + ThinkPHP 6 + uni-app + Ant Design Vue | 开源版可商用 | 微信小程序 / H5 / 公众号 / APP | 轻量自营商城、深度定制、学习 | [xany/yoshop2.0](https://gitee.com/xany/yoshop2.0) |
+| CRMEB | ThinkPHP 6 + uni-app + MySQL + Redis | Apache-2.0（社区版；商业版功能另计） | 微信小程序 / H5 / 公众号 / PC / APP | 私域零售、分销、拼团、外包二开 | [ZhongBangKeJi/CRMEB](https://gitee.com/ZhongBangKeJi/CRMEB) |
+| 萤火商城 V2.0 | PHP 7.4 + ThinkPHP 6 + uni-app + Ant Design Vue | Apache-2.0 | 微信小程序 / H5 / 公众号 / APP | 轻量自营商城、深度定制、学习 | [xany/yoshop2.0](https://gitee.com/xany/yoshop2.0) |
 | ShopXO | ThinkPHP 8 + uni-app | MIT | 微信 / 抖音 / 支付宝 / 百度 / QQ / 快手小程序、H5、APP、PC | 多平台小程序、多门店、进销存 | [zongzhige/shopxo](https://gitee.com/zongzhige/shopxo) |
-| LikeShop | ThinkPHP + uni-app | Apache-2.0（开源版免费商用） | 公众号 / H5 / 微信 / 抖音 / 字节 / 头条小程序、APP | 中小自营商城、知识商品、实物零售 | [likeshop_gitee/likeshop](https://gitee.com/likeshop_gitee/likeshop) |
-| SparkShop | PHP 8 + ThinkPHP 8 + uni-app + Element UI | 开源免费商用（以仓库 LICENSE 为准） | 小程序 / H5 / 公众号 / PC / APP | 同城零售、本地生活、简单多商户 | [sparkshop/sparkshop](https://gitee.com/sparkshop/sparkshop) |
+| LikeShop | ThinkPHP + uni-app | Apache-2.0 | 公众号 / H5 / 微信 / 抖音 / 字节 / 头条小程序、APP | 中小自营商城、知识商品、实物零售 | [likeshop_gitee/likeshop](https://gitee.com/likeshop_gitee/likeshop) |
+| SparkShop | PHP 8 + ThinkPHP 8 + uni-app + Element UI | Apache-2.0 | 小程序 / H5 / 公众号 / PC / APP | 同城零售、本地生活、简单多商户 | [sparkshop/sparkshop](https://gitee.com/sparkshop/sparkshop) |
 | 微擎 | PHP（非前后端分离） | 商业授权为主，非完整开源 | 公众号 / 小程序插件模块 | 维护老项目，不建议新项目 | [Gitee 组织](https://gitee.com/we7coreteam) / [官网](https://www.w7.cc) |
-| A3Mall | ThinkPHP 8 + VUE3 + Element Plus + uni-app | 开源免费商用 | 公众号 / H5 / 小程序 / APP / PC / 收银台 | 简单 B2C 商城、老牌 TP 项目二开 | [xzncit/A3Mall](https://gitee.com/xzncit/A3Mall) |
+| A3Mall | ThinkPHP 8 + VUE3 + Element Plus + uni-app | GPL-3.0（可商用，二次分发需遵循 GPL） | 公众号 / H5 / 小程序 / APP / PC / 收银台 | 简单 B2C 商城、老牌 TP 项目二开 | [xzncit/A3Mall](https://gitee.com/xzncit/A3Mall) |
 
 ## 项目详解
 
@@ -50,7 +50,7 @@ projects/
 
 - **仓库**：<https://gitee.com/ZhongBangKeJi/CRMEB>（Star 约 1.8w）
 - **技术栈**：ThinkPHP 6 + uni-app + MySQL + Redis，前后端分离
-- **协议**：社区版开源可商用（需保留版权）；多商户、连锁门店、高级分账等在企业版
+- **协议**：Apache-2.0（社区版，需保留版权与 NOTICE）；多商户、连锁门店、高级分账等在企业版
 - **功能**：商品 SKU、购物车、订单、微信支付、分销、拼团、秒杀、优惠券、会员、DIY 首页装修、小程序直播、积分、抽奖；一套后端支持微信小程序、H5、公众号、PC、APP
 - **适合**：私域零售、美妆、生鲜、母婴、分销商城；外包二开最常用
 - **优点**：文档、接口文档、视频教程齐全，社区大，踩坑方案多，Gitee 热度高
@@ -63,7 +63,7 @@ projects/
   - 服务端：<https://gitee.com/xany/yoshop2.0>（Star 约 7.5k）
   - uniapp 客户端：<https://gitee.com/xany/yoshop2.0-uniapp>（Star 约 2.9k）
 - **技术栈**：PHP 7.4 + ThinkPHP 6 + uni-app + Ant Design Vue 后台
-- **协议**：开源版可商用
+- **协议**：Apache-2.0
 - **功能**：基础商城、优惠券、秒杀、会员、订单、退款、模板装修；营销玩法相对克制，代码清爽
 - **适合**：简单自营商城、门店零售、水果、服装；想深度改代码、不想被冗余功能拖累
 - **优点**：轻量、注释清晰、结构简单，适合学习与二次定制，BUG 相对少
@@ -98,7 +98,7 @@ projects/
 
 - **仓库**：<https://gitee.com/sparkshop/sparkshop>（Star 约 3.2k）
 - **技术栈**：PHP 8 + ThinkPHP 8 + MySQL 8 + Element UI + uni-app
-- **协议**：开源免费商用（以仓库 LICENSE 为准）
+- **协议**：Apache-2.0
 - **功能**：B2C 商城、页面 DIY、秒杀、优惠券、积分、分销、会员等级；营销功能插件化
 - **适合**：本地生活、同城零售、简单多商户入驻
 - **优点**：单商户 / 多商户都有，代码简洁，PHP 8 + TP8 技术栈较新
@@ -118,7 +118,7 @@ projects/
 
 - **仓库**：<https://gitee.com/xzncit/A3Mall>（Star 约 0.7k）
 - **技术栈**：ThinkPHP 8 + VUE3 + Element Plus + uni-app
-- **协议**：开源免费商用
+- **协议**：GPL-3.0（可商用；二次分发需遵循 GPL 开源义务）
 - **功能**：B2C 基础商城、公众号 / H5 / 小程序 / APP / PC / 收银台，前后端源码 100% 开源
 - **适合**：简单商城、老牌 TP 项目二开
 - **优点**：技术栈较新，代码结构清晰，免费商用
@@ -144,7 +144,7 @@ projects/
 3. **队列与定时任务**：商城普遍依赖队列处理订单超时、消息通知；上线前配置 supervisor 与 crontab。
 4. **微信配置**：小程序 AppID/Secret、支付证书、回调域名必须与后台配置一致。
 5. **uni-app 编译**：确认 HBuilderX 版本与 `manifest.json` 中的 AppID，避免打包后接口域名白名单不生效。
-6. **授权与版权**：二次开发前阅读各仓库 LICENSE，保留版权声明；商业版功能不要从盗版渠道获取。
+6. **授权与版权**：二次开发前阅读各仓库 LICENSE，保留版权声明；Apache-2.0 需保留 NOTICE，GPL-3.0 二次分发有开源义务；商业版功能不要从盗版渠道获取。
 7. **安全**：上线前修改默认后台路径与管理员密码，关闭调试模式，限制 `storage` / `runtime` 目录访问。
 
 ## 协议与免责声明
